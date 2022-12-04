@@ -77,12 +77,17 @@ class Empleado: public PYME {
 			string nombreEmp, edadEmp, puestoEmp;
 			int edad, sueldo;
 		public:
+			Empleado();
 			void setnombreEmp(string);
 			void setEdadEmp(int);
 			void set_puestoEmp(string);
 			void set_edad(int);
-			void set_sueldo(int);		
+			void set_sueldo(int);	
+			void imprimeEmpleado();	
 };
+
+
+
 
 
 
